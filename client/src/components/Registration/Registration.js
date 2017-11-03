@@ -9,6 +9,7 @@ import CallToAction from '../CallToAction/CallToAction'
 import Benefits from '../Benefits/Benefits'
 import CommonQuestions from '../CommonQuestions/CommonQuestions'
 import Host from '../Host/Host'
+import Sponsors from '../Sponsors/Sponsors'
 
 import HeaderData from '../../data/header.json'
 import InfoData from '../../data/info.json'
@@ -51,6 +52,7 @@ class Registration extends Component {
         <Info data={InfoData[0]} openEmailOptIn={this.openEmailOptIn}/>
         <SpeakerIntro data={SpeakerIntroData[0]}/>
         <Speakers data={SpeakersData[0]} />
+        <Sponsors />
         <FeaturedBy data={FeaturedByData[0]} />
         <CallToAction data={CallToActionData[0]} openEmailOptIn={this.openEmailOptIn} />
         <Benefits data={BenefitsData[0]} />

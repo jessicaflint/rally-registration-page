@@ -1,10 +1,10 @@
 [
   {
     "speakers": [
-    {
-        "image":"speaker-christy-harrison",
-        "name":"CHRISTY HARRISON, RD",
-        "description":"Host of Food Psych podcast and Teacher of Intuitive Eating Fundamentals"
+      {
+          "image":"speaker-dana-falsetti",
+          "name":"DANA FALSETTI",
+          "description":"Yoga Teacher and Advocate for Woman to Live More Confidently and Fully"
       },
       {
         "image":"speaker-evelyn-tribole",
@@ -17,25 +17,50 @@
           "description":"World–Renowned Storyteller and Best-Selling Author of Eating in the Light of the Moon"
       },
       {
-        "image":"speaker-shannon-kopp",
-        "name":"SHANNON KOPP",
-        "description":"Best-Selling Author of Pound for Pound and Founder of Soul Paws"
-      },
-      {
         "image":"speaker-rebecca-scritchfield",
         "name":"REBECCA SCRITCHFIELD, RD",
         "description":"Author of Body Kindness and Host of the Body Kindness Podcast"
       },
       {
-          "image":"speaker-dana-falsetti",
-          "name":"DANA FALSETTI",
-          "description":"Yoga Teacher and Advocate for Woman to Live More Confidently and Fully"
+        "image":"speaker-shannon-kaiser",
+        "name":"SHANNON KAISER",
+        "description":"Happiness Expert and Author of The Self-Love Experiment and Adventures of the Soul"
+      },
+      {
+          "image":"speaker-kari-anderson",
+          "name":"KARI ANDERSON",
+          "description":"Executive Director for Green Mountain at Fox Run, a healing retreat center for binge eating"
+        },
+      {
+          "image":"speaker-melissa-fabello",
+          "name":"MELISSA FABELLO",
+          "description":"Body Acceptance Activist, Sexuality Scholar, and Patriarchy Smasher"
       },
       {
             "image":"speaker-marissa-sappho",
             "name":"MARISSA SAPPHO, LCSW",
             "description":"Founder and Clinical Director of Aurora Behavioral Health"
       },
+      {
+          "image":"speaker-dianne-bondy",
+          "name":"DIANNE BONDY",
+          "description":"Yoga Teacher, Social Justice Activist and Leading Voice of the Yoga For All movement"
+        },
+      {
+          "image":"speaker-carolyn-costin",
+          "name":"CAROLYN COSTIN, MFT",
+          "description":"Author, Clinician, Renowned Speaker and Pioneer in the Field of Eating Disorders"
+        },
+      {
+        "image":"speaker-shannon-kopp",
+        "name":"SHANNON KOPP",
+        "description":"Best-Selling Author of Pound for Pound and Founder of Soul Paws"
+      },
+      {
+          "image":"speaker-christy-harrison",
+          "name":"CHRISTY HARRISON, RD",
+          "description":"Host of Food Psych podcast and Teacher of Intuitive Eating Fundamentals"
+        },
       {
           "image":"speaker-katie-dalebout",
           "name":"KATIE DALEBOUT",
@@ -62,14 +87,19 @@
         "description":"Creator of the Anti-Diet Project and Author of Big Girl: How I Gave up Dieting and Got a Life"
       },
       {
-        "image":"speaker-angela-gulner",
-        "name":"ANGELA GULNER",
-        "description":"Writer and Actress of BINGE: The Series and Host of the Clambake"
-      },
-      {
         "image":"speaker-eliza-kingsford",
         "name":"ELIZA KINGSFORD, LPC",
         "description":"Body Image Expert and Author of Brain Powered Weight Loss"
+      },
+      {
+        "image":"speaker-ann-biasetti",
+        "name":"ANN BIASETTI, PHD LCSW-R",
+        "description":"Self-Compassion, Mindfulness, and Embodiment Expert"
+      },
+      {
+        "image":"speaker-meghan-kacmarcik",
+        "name":"MEGHAN KACMARCIK, RD",
+        "description":"Body Positive Activist and Anti-Diet Dietitian at New Moon Nutrition"
       },
       {
         "image":"speaker-erica-drewry",
@@ -82,19 +112,19 @@
         "description":"Clinical Director at Montecatini Eating Disorder Treatment Center"
       },
       {
-        "image":"speaker-ann-biasetti",
-        "name":"ANN BIASETTI, PHD LCSW-R",
-        "description":"Self-Compassion, Mindfulness, and Embodiment Expert"
-      },
-      {
-        "image":"speaker-lisa-lewtan",
-        "name":"LISA LEWTAN",
-        "description":"Author of Busy, Stressed, and Food Obsessed! and Host on Healthy View Radio"
-        },
-      {
         "image":"speaker-carolyn-becker",
         "name":"CAROLYN BECKER, PHD",
         "description":"Co-Director and Founder of the Body Project Collaborative and TEDX Speaker"
+        },
+        {
+          "image":"speaker-sharon-zimbler",
+          "name":"SHARON ZIMBLER, MFT",
+          "description":"Executive Director at Montecatini Eating Disorder Treatment Center"
+        },
+        {
+          "image":"speaker-angela-gulner",
+          "name":"ANGELA GULNER",
+          "description":"Writer and Actress of BINGE: The Series and Host of the Clambake"
         },
       {
         "image":"speaker-leora-fulvio",
@@ -102,10 +132,10 @@
         "description":"Creator of the 5 Week Step-by-Step Program to Stop Binge Eating For Good"
       },
       {
-        "image":"speaker-sharon-zimbler",
-        "name":"SHARON ZIMBLER, MFT",
-        "description":"Executive Director at Montecatini Eating Disorder Treatment Center"
-      },
+        "image":"speaker-lisa-lewtan",
+        "name":"LISA LEWTAN",
+        "description":"Author of Busy, Stressed, and Food Obsessed! and Host on Healthy View Radio"
+        },
       {
         "image":"speaker-anne-ortelee",
         "name":"ANNE ORTELEE",
@@ -132,9 +162,14 @@
         "description":"Nutrition therapist and yoga teacher focused on body-centered healing"
       },
       {
+        "image":"speaker-lauren-korshak",
+        "name":"LAUREN KORSHAK, LMFT",
+        "description":"Therapist and Dating Matchmaker"
+      },
+      {
         "image":"speaker-lexie-manion",
         "name":"LEXIE MANION",
-        "description":"Body Positive Advocate. Founder of #BoycotttheBefore #FearlesslyFaceless"
+        "description":"Body Positive Advocate and Founder of #BoycotttheBefore #FearlesslyFaceless"
       },
       {
         "image":"speaker-betsy-thurston",
@@ -142,6 +177,6 @@
         "description":"Host of the Binge Dieting Podcast and intergrative health coach"
       }
     ],
-    "epilogue":"More in the queue – we’re adding new experts and thought leaders every day!"
+    "epilogue":"35+ powerful experts and thought leaders that are changing the dialogue around food, body, and love"
   }
 ]

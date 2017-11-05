@@ -23,7 +23,7 @@ class EmailOptIn extends Component {
     console.log('A name was submitted: ' + this.state.email + this.state.firstName + this.state.lastName)
     this.addMember()
     event.preventDefault()
-    window.location.href = 'https://www.truewarrior.fm/congratulations/'
+    window.location.href = 'http://events.truewarrior.fm/vip-all-access-pass/'
     return false
   }
   addMember = () => {

@@ -32,6 +32,7 @@ class Registration extends Component {
     }
     this.openEmailOptIn = this.openEmailOptIn.bind(this)
     this.closeEmailOptIn = this.closeEmailOptIn.bind(this)
+    this.getParameterByName = this.getParameterByName.bind(this)
   }
   openEmailOptIn() {
     this.setState({
@@ -43,7 +44,18 @@ class Registration extends Component {
       'emailOptIn': false
     })
   }
+  getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.href);
+    if(results == null)
+      return "";
+      else
+    return decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
   render() {
+    document.getElementById("placement").value = this.getParameterByName("affiliate_token")
     return (
       <div className="registration">
         {this.state.emailOptIn ? <EmailOptIn closeEmailOptIn={this.closeEmailOptIn}/> : ''}

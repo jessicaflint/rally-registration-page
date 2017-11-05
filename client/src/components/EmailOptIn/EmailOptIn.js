@@ -23,7 +23,7 @@ class EmailOptIn extends Component {
     console.log('A name was submitted: ' + this.state.email + this.state.firstName + this.state.lastName)
     this.addMember()
     event.preventDefault()
-    window.location.href = 'http://events.truewarrior.fm/vip-all-access-pass/'
+    // window.location.href = 'http://events.truewarrior.fm/vip-all-access-pass/'
     return false
   }
   addMember = () => {
@@ -51,16 +51,23 @@ class EmailOptIn extends Component {
   handleClose(e) {
     e.stopPropagation()
   }
+  componentDidMount() {
+    const v = document.getElementById("placement").value
+    if (v != null) {
+      document.getElementById("token").value = v
+    }
+  }
   render() {
     return (
       <div className="email-opt-in" onClick={this.props.closeEmailOptIn}>
         <div className="registration-block" onClick={this.handleClose}>
           <h2>So excited for you to be a part of the FREE 7 day FoodBodyLove Rally!</h2>
           <h4>Sign up to grab a spot and we'll see you Nov 13-19th.</h4>
-          <form onSubmit={this.handleSubmit}>
-            <input placeholder="first name" type="text" value={this.state.firstName} onChange={this.handleFirstName} />
-            <input placeholder="email" type="text" value={this.state.email} onChange={this.handleEmail} />
+          <form data-drip-embedded-form="830406283" action="https://www.getdrip.com/forms/830406283/submissions" method="post">
+            <input placeholder="first name" type="text" id="drip-name" name="fields[first_name]" value={this.state.firstName} onChange={this.handleFirstName} />
+            <input placeholder="email" type="email" id="drip-email" name="fields[email]" value={this.state.email} onChange={this.handleEmail} />
             <input type="submit" value="GET YOUR FREE PASS!" />
+            <input type="hidden" name="fields[token]" id="token" value={document.getElementById("placement").value}  />
           </form>
         </div>
       </div>

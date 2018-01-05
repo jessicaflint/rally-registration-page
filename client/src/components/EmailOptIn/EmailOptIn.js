@@ -55,14 +55,7 @@ class EmailOptIn extends Component {
   componentWillUnmount() {
     document.body.style.position = 'absolute';
     document.body.style.top = '0px';
-    console.log('from unmount:');
-    console.log(this.state.yOffset);
     window.scrollTo(0, this.state.yOffset);
-    // document.body.style.overflow = 'visible';
-    // document.body.style.height = '100%';
-    // document.body.style.width = '100%';
-    // document.getElementById('root').style.position = 'relative';
-    // document.getElementById('root').style.overflow = 'scroll';
   }
   componentDidMount() {
     const v = document.getElementById("placement").value
@@ -74,25 +67,10 @@ class EmailOptIn extends Component {
     var body = document.body;
     var y = window.pageYOffset;
     this.setState({yOffset: y});
-    console.log(modal[0]);
-    console.log(y);
     modal[0].style.top = y + 'px';
     body.style.top = '-' + y.toString() + 'px';
 
-
-
     document.body.style.position = 'fixed';
-    // document.body.style.overflow = 'hidden';
-    // document.body.style.height = '100%';
-    // document.body.style.width = '100%';
-    // document.getElementById('root').style.position = 'fixed';
-    // document.getElementById('root').style.overflow = 'hidden';
-
-    // window.scrollTo(0, y);
-
-    // setTimeout(function () {
-    //         window.scrollTo(0, y);
-    //     },2);
 
   }
   render() {
